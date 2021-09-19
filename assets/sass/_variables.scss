@@ -215,6 +215,8 @@ $colors: (
   "gray": $clr-gray-600,
   "white": white,
   "black": black,
+  $error: $clr-red-800,
+  $info: $clr-yellow-800,
 );
 
 // spacing
@@ -223,11 +225,10 @@ $base-margin: 0.75rem;
 
 // borders
 $base-border-thickness: 1px;
-$base-border-radius: 0.8rem;
+$base-border-radius: 20px;
 
 // box shadows
-$base-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
-  0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 
 // font sizes
 $base-font-size: 1rem;
