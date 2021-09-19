@@ -1,19 +1,7 @@
-// Oder is important!
-@import "functions";
-@import "variables";
+// Custom SASS (Overrites the !default values in sass-design)
+$primary: #00b2ff;
+$base-padding: 1rem;
+$base-border-thickness: 3px;
 
-// base & layout
-@import "base";
-@import "breakpoints";
-@import "grid";
-
-// colors
-@import "colors";
-
-// components
-@import "components/card";
-@import "components/button";
-@import "components/navbar";
-
-// utilities
-@import "utilities";
+// Source SASS
+@import "../sass-design";
