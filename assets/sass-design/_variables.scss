@@ -210,7 +210,7 @@ $clr-blue-gray-900: #263238;
 
 // default colors
 $primary: $clr-purple-600 !default;
-$secondary: $clr-pink-600 !default;
+$secondary: $clr-pink-200 !default;
 $error: $clr-red-800 !default;
 $info: $clr-yellow-800 !default;
 
@@ -223,7 +223,7 @@ $colors: (
   "black": black,
   "error": $error,
   "info": $info,
-);
+) !default;
 
 // spacing
 $base-padding: 0.75rem !default;
